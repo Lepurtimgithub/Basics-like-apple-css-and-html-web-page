@@ -33,7 +33,7 @@ header {
   backdrop-filter: blur(2rem);
 }
 
-
+/*sayfayı 3 parça halinde kaplayacak şekilde resimler ekleyeceğim için <img> yerine bu şekilde ekledim*/ 
 .markanızı-göz-önüne {
   background: url("images/hero/first-background/asd.png");
   margin-top: 4.4rem;
@@ -168,3 +168,92 @@ header {
 .iphone-11-pro {
   border-top: none;
 }
+
+.fa-instagram {
+  margin-left: 44%;
+  margin-top: 1cm;
+  color: #0070c9;
+}
+.fa-twitter {
+  margin-left: 0.3cm;
+  color: #0070c9;
+}
+
+.fa-linkedin {
+  margin-left: 0.3cm;
+  color: #0070c9;
+}
+
+.fa-youtube {
+  margin-left: 0.3cm;
+  color: #0070c9;
+}
+
+
+    
+
+    /* Canlı Destek Kısmı*/
+    .canli-destek-container {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 300px;
+      height: 400px;
+      background-color: #f5f5f5;
+      border: 1px solid #ccc;
+      padding: 10px;
+      display: none;
+      z-index: 9999;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      border-radius: 5px;
+      transform: perspective(800px) rotateX(10deg);
+      background-color: #cacaca;
+      transition: transform 0.5s;
+    }
+
+    .canli-destek-container:hover {
+      transform: rotateX(0deg) rotateY(0deg);
+    }
+
+    .canli-destek-header {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .canli-destek-content {
+      margin-top: 10px;
+      font-family: "SF Pro Display", sans-serif;
+      font-size: 20px;
+    }
+
+    .canli-destek-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #aeafae;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      z-index: 9999;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      transition: transform 0.5s;
+    }
+
+    .canli-destek-button:hover {
+      transform: rotateX(10deg) rotateY(15deg);
+    }
+
+    .kapat-button {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      background-color: #ccc;
+      color: #333;
+      border: none;
+      padding: 5px 10px;
+      font-size: 12px;
+      cursor: pointer;
+    }

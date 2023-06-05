@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Harita</title>
+    <style>
+      body,
+      header {
+        position: fixed;
+        top: 0;
+        z-index: 1400;
+        width: 100%;
+        height: 4.4rem;
+        background-color: rgba(0, 0, 0, 0.8);
+        backdrop-filter: blur(2rem);
+      }
+      html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+      }
+      a {
+        font-family: "SF Pro Display", sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 20px;
+        color: #fff;
+        display: block;
+      }
+      h1 {
+        font-family: "SF Pro Display", sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 20px;
+        color: #fff;
+      }
+      .centered-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="title-heading">Yerimiz</h1>
+    <a href="index.html" class="cta-link centered-text">Ana Sayfaya Dön</a>
+    <div class="container">
+      <iframe
+        width="600"
+        height="550"
+        frameborder="0"
+        style="border:0"
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12028.954004915993!2d28.9804518!3d41.0856353!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab75c3f8c26bd%3A0x65f5587f168bd065!2zS2VudCDDnG5pdmVyc2l0ZXNpIEthxJ_EsXRoYW5lIEthbXDDvHPDvA!5e0!3m2!1str!2str!4v1685646970951!5m2!1str!2str"
+        width="600"
+        height="450"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </body>
+</html>
